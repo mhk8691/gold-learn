@@ -1,0 +1,56 @@
+.img-header {
+  height: 82vh;
+  object-fit: cover;
+}
+.overlay {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 82vh;
+}
+.header-title {
+  color: white;
+  width: 420px;
+  height: 35%;
+  position: absolute;
+  left: 73%;
+  top: 73%;
+  transform: translate(-50%, -50%);
+}
+.header-title a {
+  background-color: gold;
+  padding: 12px 15px;
+  border-radius: 5px;
+  color: black;
+  transition: all 0.3s linear;
+}
+.header-title a:hover {
+  background-color: rgb(230, 195, 0);
+}
+@media screen and (max-width: 965px) {
+  .header-title {
+    width: 79%;
+    left: 50%;
+    top: 50%;
+    margin-top: 96px;
+    margin-left: 36px;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-title {
+    left: 56%;
+    top: 55%;
+    font-size: 11px;
+    transform: translate(-50%, -50%);
+    margin-left: 0px;
+  }
+  .header-title h3 {
+    font-size: 16px;
+  }
+  .header-title a {
+    font-size: 16px;
+  }
+  .img-header {
+    object-fit: fill;
+  }
+}

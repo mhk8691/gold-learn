@@ -1,0 +1,95 @@
+footer {
+  background-color: #041121;
+  min-height: 200px;
+}
+
+.card-footer-section .card-header h4 {
+  border-bottom: 2px solid #a89b9b;
+  padding-bottom: 10px;
+  color: #e6e6e6;
+}
+.card-footer-section .card-body ul li {
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: right;
+  margin-right: 15px;
+}
+.card-footer-section .card-body ul li a {
+  color: white;
+}
+.card-footer-section .card-body ul li a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+}
+.card-footer-section .card-body ul {
+  margin-top: -10px;
+}
+.card-footer-section .card-body a i {
+  font-size: 30px;
+  color: #efefef;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+}
+.card-footer-section .card-body a i:hover {
+  transform: translate(0, -7px);
+}
+.card-footer-section .card-footer button {
+  background-color: #eab308;
+  padding: 7px 30px;
+  border: none;
+  margin-left: -5px;
+  border-radius: 0 5px 5px 0;
+  transition: 0.4s ease;
+  display: inline-block;
+
+  cursor: pointer;
+}
+.card-footer-section .card-footer input {
+  padding: 7px 7px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  display: inline-block;
+}
+.card-footer-section .card-footer {
+  margin-top: -5px;
+}
+.card-footer-section .card-footer input:focus {
+  outline: none;
+  border: none;
+}
+.card-footer-section .card-footer button:hover {
+  background-color: #dda600;
+}
+.card-footer-section .card-footer {
+  text-align: center;
+  margin-top: -25px;
+}
+.card-footer-section .card-header a i {
+  font-size: 30px;
+  color: white;
+}
+.card-footer-section .card-body p {
+  color: white;
+}
+.copyright {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  border-top: 2px solid black;
+  padding: 20px 0;
+}
+.card-footer-section .Contact-us i {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.card-footer-section .Contact-us i:nth-child(1) {
+  color: #e6e6e6;
+}
+.card-footer-section .Contact-us i:nth-child(2) {
+  color: greenyellow;
+}
+.card-footer-section .Contact-us span {
+  margin-left: 10px;
+  color: white;
+}

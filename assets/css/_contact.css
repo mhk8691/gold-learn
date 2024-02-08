@@ -1,0 +1,39 @@
+.container-fluid-costume .contact i span {
+  padding: 5px;
+  vertical-align: 1px;
+}
+.container-fluid-costume .contact {
+  font-size: 17px;
+}
+.container-fluid-costume .contact i {
+  margin: 0 10px;
+  vertical-align: -8px;
+}
+.container-fluid-costume {
+  height: 40px;
+}
+.container-fluid-costume .social-media {
+  direction: ltr;
+}
+.container-fluid-costume .social-media i {
+  vertical-align: -9px;
+  font-size: 22px;
+  margin-right: 6px;
+  transition: 0.25s linear;
+}
+.container-fluid-costume .social-media a {
+  color: black;
+}
+.container-fluid-costume .social-media .f:hover {
+  color: #1877f2;
+}
+.container-fluid-costume .social-media .te:hover {
+  color: #0088cc;
+}
+
+.container-fluid-costume .social-media .y:hover {
+  color: #cd201f;
+}
+.container-fluid-costume .social-media .ti:hover {
+  color: #1da1f2;
+}

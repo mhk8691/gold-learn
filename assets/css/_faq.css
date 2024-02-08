@@ -1,0 +1,116 @@
+.faq-section .row {
+  background-image: url(../image/bg-faq.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-faq-title span {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+}
+.section-faq-title span::before {
+  content: " ";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background-color: #eab308;
+  top: 50%;
+  right: -65px;
+  border-radius: 10px;
+}
+.section-faq-title span::after {
+  content: " ";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background-color: #eab308;
+  top: 50%;
+  left: -65px;
+  border-radius: 10px;
+}
+.faq-side-right {
+  background-color: gold;
+  padding: 20px 50px;
+  box-shadow: 1px 5px 15px 2px black;
+  margin-top: 14%;
+  border-radius: 5px;
+}
+.faq-side-right h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.faq-side-right h5 i {
+  font-size: 24px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.faq-side-right p {
+  font-size: 15px;
+  margin-right: 35px;
+  color: #34495e;
+}
+.faq-side-left .tab p {
+  font-size: 15px;
+  line-height: 25px;
+
+  margin-right: 11px;
+}
+.faq-side-left .tab .faq-side-left .tab p {
+  display: block;
+}
+.faq-side-left .tabs {
+  box-shadow: 1px 5px 15px 2px black;
+  background-color: #2ecc71;
+  border-radius: 5px;
+  color: white;
+  overflow: hidden;
+}
+.faq-side-left .tab .test {
+  margin: 20px 10px;
+}
+.lbl-tab {
+  padding: 7px 10px;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.lbl-tab:hover {
+  color: #e4d7d7;
+}
+.lbl-tab::after {
+  content: "\276f";
+  margin-right: 8px;
+}
+
+.faq-side-left .tab .tab-content {
+  display: none;
+  color: blue;
+  transition: 2s ease;
+}
+.faq-side-left .tab input:checked ~ .tab-content {
+  padding: 10px;
+  display: block;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.faq-side-left .tab input {
+  display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+  .tabs {
+    margin-top: 14%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .test {
+    font-size: 15px;
+  }
+  .tab-content p {
+    font-size: 14px;
+  }
+}
